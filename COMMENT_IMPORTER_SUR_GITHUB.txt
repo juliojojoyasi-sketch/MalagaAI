@@ -1,0 +1,18 @@
+MALAGAI — IMPORT GITHUB DEPUIS ANDROID
+
+IMPORTANT
+GitHub ne décompresse pas automatiquement un ZIP envoyé comme fichier.
+Pour importer facilement ce projet, utilise l'option d'extraction de ton
+gestionnaire de fichiers Android avant l'upload.
+
+1. Décompresse MalagAI_GitHub_Fichiers.zip dans Téléchargements.
+2. Dans GitHub, ouvre ton dépôt MalagAI.
+3. Appuie sur Add file > Upload files.
+4. Sélectionne tous les fichiers ET dossiers du dossier extrait.
+5. Vérifie surtout que le dossier .github existe et contient:
+   .github/workflows/build-apk.yml
+6. Valide avec Commit changes.
+7. Va dans Actions > Build MalagAI APK > Run workflow.
+8. Une fois terminé, télécharge l'Artifact MalagAI-debug-APK.
+
+Le projet est configuré pour construire un APK debug avec GitHub Actions.
